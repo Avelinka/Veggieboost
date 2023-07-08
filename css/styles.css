@@ -112,55 +112,23 @@ button {
 }
 /*====================END HERO====================*/
 /*====================HOWITWORKS====================*/
-.howitworks {
-  padding: 80px 0;
-}
-
-.howitworks-title-wrapper {
-  margin-bottom: 80px;
-}
-
-.howitworks-title-box {
-  margin-bottom: 20px;
-}
-
 .howitworks-title {
-  font-size: 28px;
   font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -1.12px;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 
 .howitworks-reason-box {
   display: flex;
 }
 
-.howitworks-reason-text {
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -0.56px;
-}
-
 .howitworks-list-wrapper {
   background-color: var(--lite-orange-color);
   background-repeat: no-repeat;
-  /* background-position: center; */
   background-size: cover;
-  border-radius: 40px;
-  padding: 40px 20px 0;
-}
-
-.howitworks-list {
-  margin-bottom: 20px;
 }
 
 .howitworks-list-title {
-  font-size: 24px;
   font-weight: 500;
-  line-height: 28px;
-  letter-spacing: -0.96px;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
@@ -176,7 +144,7 @@ button {
 }
 
 .howitworks-list-item:nth-child(-n + 2) {
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 .howitworks-list-item::before {
@@ -188,8 +156,6 @@ button {
   top: 50%;
   left: 0;
   transform: translate(0, -50%);
-  width: 40px;
-  height: 38px;
   border-radius: 50%;
   background-color: var(--green-color);
   color: var(--black-color);
@@ -203,7 +169,6 @@ button {
   justify-content: center;
   align-items: flex-end;
   max-width: 258px;
-  height: 319px;
   margin: 0 auto;
 }
 /*====================END HOWITWORKS====================*/

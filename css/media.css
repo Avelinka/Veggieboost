@@ -52,11 +52,39 @@
 
   /*====================END HERO====================*/
   /*====================HOWITWORKS====================*/
+  .howitworks {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .howitworks-title-wrapper {
+    margin-bottom: 80px;
+  }
+
+  .howitworks-title-box {
+    margin-bottom: 20px;
+  }
+
+  .howitworks-title {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+    margin-bottom: 20px;
+  }
+
   .howitworks-reason-box {
     flex-direction: column;
   }
 
+  .howitworks-reason-text {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+  }
+
   .howitworks-list-wrapper {
+    border-radius: 40px;
+    padding: 40px 20px 0;
     background-image: url(../img/hit/bg-dots-mob-2s.png);
   }
 
@@ -66,6 +94,21 @@
     .howitworks-list-wrapper {
       background-image: url(../img/hit/bg-dots-mob-2s@2x.png);
     }
+  }
+
+  .howitworks-list-box {
+    margin-bottom: 20px;
+  }
+
+  .howitworks-list-title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.96px;
+  }
+
+  .howitworks-list-item::before {
+    width: 40px;
+    height: 38px;
   }
   /*====================END HOWITWORKS====================*/
   /*====================VEGETABLES====================*/
@@ -145,6 +188,7 @@
     border-radius: 40px;
     background-image: url(../img/bg-dots-mob.png);
   }
+
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
@@ -212,7 +256,95 @@
 
   /*====================END HERO====================*/
   /*====================HOWITWORKS====================*/
+  .howitworks {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
+  .howitworks-title-wrapper {
+    margin-bottom: 100px;
+  }
+
+  .howitworks-title-box {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+
+  .howitworks-title {
+    width: 386px;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+  }
+
+  .howitworks-title-img {
+    width: 310px;
+  }
+
+  .howitworks-reason-text {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+  }
+
+  .reason-first {
+    width: 317px;
+  }
+
+  .reason-second {
+    width: 279px;
+  }
+
+  .howitworks-list-wrapper {
+    display: flex;
+    gap: 40px;
+    border-radius: 80px;
+    padding-top: 40px;
+    padding-right: 40px;
+    background-image: url(../img/hit/bg-dots-tab-2s.png);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .howitworks-list-wrapper {
+      background-image: url(../img/hit/bg-dots-tab-2s@2x.png);
+    }
+  }
+
+  .howitworks-list-box {
+    width: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+  }
+
+  .howitworks-list-title {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+  }
+
+  .howitworks-list-item {
+    padding-left: 60px;
+    max-width: 236px;
+  }
+
+  .howitworks-list-item:nth-child(-n + 2) {
+    margin-bottom: 24px;
+  }
+
+  .howitworks-list-img {
+    max-width: 350px;
+    order: -1;
+  }
+
+  .howitworks-list-item::before {
+    width: 46px;
+    height: 44px;
+  }
   /*====================END HOWITWORKS====================*/
   /*====================VEGETABLES====================*/
   .vegetables {
@@ -318,6 +450,14 @@
     padding-top: 17px;
     border-radius: 80px;
     background-image: url(../img/bg-dots-tab.png);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .callyou-img-box {
+      background-image: url(../img/bg-dots-tab@2x.png);
+    }
   }
   /*====================END CALLYOU====================*/
   /*====================FOOTER====================*/
@@ -426,7 +566,84 @@
 
   /*====================END HERO====================*/
   /*====================HOWITWORKS====================*/
+  .howitworks {
+    padding-top: 124px;
+    padding-bottom: 124px;
+  }
 
+  .howitworks-title-wrapper {
+    margin-bottom: 124px;
+  }
+
+  .howitworks-title-box {
+    gap: 192px;
+  }
+
+  .howitworks-title {
+    width: 614px;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -1.92px;
+  }
+
+  .howitworks-title-img {
+    width: 410px;
+  }
+
+  .howitworks-reason-box {
+    gap: 40px;
+  }
+
+  .reason-first {
+    width: 352px;
+  }
+
+  .reason-second {
+    width: 294px;
+  }
+
+  .howitworks-list-wrapper {
+    gap: 110px;
+    padding-right: 80px;
+    padding-left: 80px;
+    background-image: url(../img/hit/bg-dots-desktop-2s.png);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .howitworks-list-wrapper {
+      background-image: url(../img/hit/bg-dots-desktop-2s@2x.png);
+    }
+  }
+
+  .howitworks-list-box {
+    width: 512px;
+    margin-bottom: 84px;
+  }
+
+  .howitworks-list-title {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+    margin-bottom: 44px;
+  }
+
+  .howitworks-list-item {
+    max-width: 349px;
+  }
+
+  .howitworks-list-item:nth-child(2) {
+    max-width: 226px;
+  }
+
+  .howitworks-list-item:nth-child(-n + 2) {
+    margin-bottom: 28px;
+  }
+
+  .howitworks-list-img {
+    max-width: 434px;
+  }
   /*====================END HOWITWORKS====================*/
   /*====================VEGETABLES====================*/
   .vegetables {
@@ -492,12 +709,19 @@
   .callyou-form {
     margin: 0;
   }
+
   .callyou-img-box {
     width: 525px;
     padding-top: 37px;
     background-image: url(../img/bg-dots-desktop.png);
-    background-position: center;
-    background-size: cover;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .callyou-img-box {
+      background-image: url(../img/bg-dots-desktop@2x.png);
+    }
   }
 
   /*====================END CALLYOU====================*/
